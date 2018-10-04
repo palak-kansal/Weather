@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_temp_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/top_margin" />
+
+    <TextView
+        android:id="@+id/tv_min_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_temp_img"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/minimum_temp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_min_temp_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_temp_img"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_toRightOf="@+id/tv_min_temp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size" />
+
+    <TextView
+        android:id="@+id/tv_max_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_min_temp"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:text="@string/maximum_temp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_max_temp_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_min_temp"
+        android:layout_toRightOf="@+id/tv_max_temp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size" />
+</RelativeLayout>

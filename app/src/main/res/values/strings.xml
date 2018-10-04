@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather Details</string>
+    <string name="get_info">Get Info</string>
+    <string name="maximum_temp">Maximum Temp:</string>
+    <string name="minimum_temp">Minimum Temp:</string>
+    <string-array name="Cities">
+        <item>Amsterdam</item>
+        <item>Washington</item>
+        <item>Tokyo</item>
+        <item>Paris</item>
+        <item>London</item>
+        <item>Beijing</item>
+    </string-array>
+</resources>
